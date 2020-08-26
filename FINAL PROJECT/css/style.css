@@ -1,0 +1,270 @@
+
+.wrapper-width {
+	max-width: 1280px;
+	margin: auto;
+}
+
+body {
+	background-color: #c72b04;
+	background-image: url("https://www.transparenttextures.com/patterns/diagonal-striped-brick.png");
+}
+
+.title h1 {
+	text-align:center;
+	color:white; 
+	font-family: 'Arvo';
+  	font-weight: bold;
+  	font-size: 60px;
+	  text-shadow:
+	    -3px -3px 0 #222,
+	    3px -3px 0 #222,
+	    -3px 3px 0 #222,
+	    3px 3px 0 #222,
+	    4px 4px 0 #fff,
+	    5px 5px 0 #fff,
+	    6px 6px 0 #fff,
+	    7px 7px 0 #fff;
+	  line-height: 0.8em;
+	  letter-spacing: 0.1em;
+	  transform: scaleY(0.7);
+	  -webkit-transform: scaleY(0.7);
+	  -moz-transform: scaleY(0.7);
+}
+
+.location-type {
+	text-align: center;
+}
+
+
+
+.images {
+	width:100%;
+	margin-left:17%;
+	/*text-align:center;*/
+}
+
+#slideshow {
+	position:relative;
+	height: 650px;
+	width:100%;
+	display:block;
+	text-align:center;
+	padding-left: 100px;
+
+	/*display:inline-block;
+	text-align:center;*/
+
+
+}
+
+#slideshow li {
+	list-style-type: none;
+}
+
+
+#slideshow img {
+	width: 600px;
+	height: 600px;
+	object-fit: cover;
+	display:show;
+	margin: 0 auto;
+	padding-bottom: 500px;
+	position:absolute;
+
+}
+
+#wrapper {
+	font-family: 'Open sans', serif;
+}
+
+#wrapper .text {
+	background: #c77763;
+	text-align: center;
+	font-style: italic;
+	color:white;
+	font-weight:bold;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	font-family: 'Arvo';
+	width:100%;
+}
+
+
+.container {
+	display:flex;
+	height:350px
+}
+
+.direction {
+	width: 30%;
+}
+
+.box1 p {
+	font-family: 'Open sans';
+	font-size: 25px;
+	color:white;
+	text-align: center;
+	margin-top: 25%;
+}
+
+.box2 p {
+	font-family: 'Open sans';
+	font-size: 25px;
+	color:white;
+	text-align: center;
+	margin-top: 25%;
+}
+
+.box3 p {
+	font-family: 'Open sans';
+	font-size: 25px;
+	color:white;
+	text-align: center;
+	margin-top: 25%;
+}
+
+.form-location {
+	text-align: center;
+}
+
+
+footer { 
+	background: black;
+	color: white;
+	width:100%;
+	height: 50px
+	bottom:0;
+	left:0;
+	position:absolute;
+	padding: 3% 3%;
+	font-family: 'Open sans';
+
+}
+
+.results-title {
+	font-family: 'Arvo';
+	text-align: center;
+	margin-top:5%;
+	margin-bottom: 2%;
+}
+
+
+h1 span {
+	color:white; 
+	font-family: 'Arvo';
+  	font-weight: bold;
+  	font-size: 40px;
+	  text-shadow:
+	    -3px -3px 0 #222,
+	    3px -3px 0 #222,
+	    -3px 3px 0 #222,
+	    3px 3px 0 #222,
+	    4px 4px 0 #fff,
+	    5px 5px 0 #fff,
+	    6px 6px 0 #fff,
+	    7px 7px 0 #fff;
+	  line-height: 0.8em;
+	  letter-spacing: 0.1em;
+	  transform: scaleY(0.7);
+	  -webkit-transform: scaleY(0.7);
+	  -moz-transform: scaleY(0.7);
+}
+
+
+
+.image-result {
+	object-fit: cover;
+	width:450px;
+	height: 400px
+
+}
+
+.option1 {
+	text-align:center;
+	width:100%
+	margin-bottom: 20px;
+}
+
+.option1 h1{
+	font-family: 'Arvo';
+	color:white;
+	font-size:20px;
+}
+
+.option1 p {
+	font-family: 'Arvo';
+	color:white;
+	font-size:16px;
+	font-style: italic;
+}
+
+.option2 {
+	text-align:center;
+	width:100%;
+
+}
+
+.option2 h1{
+	font-family: 'Arvo';
+	color:white;
+	font-size:20px;
+}
+
+.option2 p {
+	font-family: 'Arvo';
+	color:white;
+	font-size:16px;
+	font-style: italic;
+}
+
+.option3 {
+	text-align:center;
+	width:100%;
+}
+
+.option3 h1{
+	font-family: 'Arvo';
+	color:white;
+	font-size:20px;
+}
+
+.option3 p {
+	font-family: 'Arvo';
+	color:white;
+	font-size:16px;
+	font-style: italic;
+}
+
+/*.taco img {
+	width: 100px;
+	height: auto;
+	animation-name:mymove;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	text-align: top;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 1280px;}*/
+
+@media (max-width:768px) {
+	.images {
+		margin: 0 auto;
+	}
+
+	.direction div {
+		width:100%;
+		padding: 0;
+		text-align:center;
+	}
+}
+
+
+
+
+
+
+
+
+

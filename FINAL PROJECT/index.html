@@ -1,0 +1,254 @@
+<!-- Final project that I did for my part-time front-end web development class. Enjoy! -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>U hungry?</title>
+
+	<link rel= 'stylesheet' href='css/style.css'/>
+	<link rel= 'stylesheet' href='css/normalize.css'/>
+	<link rel= 'stylesheet' href="https://fonts.googleapis.com/css?family=Arvo&display=swap"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src='js/index.js'></script> 
+</head>
+<body>
+	<div class="wrapper-width">
+
+<div class="title">
+	<h1>u hungry?</h1>
+</div>
+
+	<div class="images">
+		<ul id="slideshow">
+			<li><img src="images/pancakes.jpg" class="slide" alt="first"/></li>
+			<li><img src="images/pizza.jpg" class="slide" alt="second"/></li>
+			<li><img src="images/ramen.jpg" class="slide" alt="third"/></li>
+			<li><img src="images/sandwich.jpg" class="slide" alt="fourth"/></li>
+			<li><img src="images/soup.jpg" class = "slide" alt="fifth"/></li>
+
+		</ul>	
+	</div>
+
+
+
+	 <!-- results section  -->
+
+
+<section id="results">
+
+	<div class="results-title">
+	<h1>Just one decision away from <span>full satiety...</span></h1>
+    </div>
+
+	<!-- <div class="taco">
+		<img src="images/background-taco.png">
+	</div> -->
+
+	<div class="option1">
+		<div class="harlem">
+			<img src="images/harlem1.jpg" class="image-result" alt="first"/>
+			<h1>Le Baobab Gouygui</h1>
+			<p>West African, Comfort $ (4.2) 120 W 116th St</p>
+		</div>
+		<div class="uws">
+			<img src="images/uws1.jpg" class="image-result" alt="first"/>
+			<h1>Freddie & Pepper's</h1>
+			<p>Pizza, Vegan Options $ (4.4) 303 Amsterdam Ave</p>
+		</div>	
+		<div class="ues">
+			<img src="images/ues1.jpg" class="image-result" alt="first"/>
+			<h1>Naruto Ramen</h1>
+			<p>Ramen, Japanese $ (4.5) 1596 3rd Ave</p>
+		</div>	
+		<div class="midtown-west">
+			<img src="images/midtownwest1.jpg" class="image-result" alt="first"/>
+			<h1>The Waylon</h1>
+			<p>Tex Mex $ (4.6) 736 10th Ave</p>
+		</div>	
+		<div class="midtown-east">
+			<img src="images/midtowneast1.jpg" class="image-result" alt="first"/>
+			<h1>Midtown</h1>
+			<p>Diner, Comfort $ (3.9) 155 E 55th St</p>
+		</div>
+		<div class="chelsea">
+			<img src="images/chelsea1.jpg" class="image-result" alt="first"/>
+			<h1>Los Mariscos</h1>
+			<p>Mexican, Seafood $ (4.8) 409 W 15th St</p>
+		</div>
+		<div class="east-village">
+			<img src="images/eastvillage1.jpg" class="image-result" alt="first"/>
+			<h1>Kenka</h1>
+			<p>Japanese, Beer $ (4.3) 25 St Marks Pl</p>
+		</div>
+		<div class="les">
+			<img src="images/les1.jpg" class="image-result" alt="first"/>
+			<h1>Empanada Mama</h1>
+			<p>Columbian, Late night $ (4.3) 95 Allen St</p>
+		</div>
+		<div class="fidi">
+			<img src="images/fidi1.jpg" class="image-result" alt="first"/>
+			<h1>Fish Market</h1>
+			<p>Seafood, Bar $ (4.5) 111 South St</p>
+		</div>
+	</div>
+
+	<div class="option2">
+		<div class="harlem">
+			<img src="images/harlem2.jpg" class="image-result" alt="first"/>
+			<h1>Amy Ruth's</h1>
+			<p>Southern, American, Comfort $$ (4.3) 113 W 116th St</p>
+		</div>
+		<div class="uws">
+			<img src="images/uws2.jpg" class="image-result" alt="first"/>
+			<h1>Osteria Cotta</h1>
+			<p>Italian, Wine Bar $$ (4.4) 513 Columbus Ave</p>
+		</div>	
+		<div class="ues">
+			<img src="images/ues2.jpg" class="image-result" alt="first"/>
+			<h1>The Milton</h1>
+			<p>Irish, Pub $$ (4.4) 1754 2nd Ave</p>
+		</div>	
+		<div class="midtown-west">
+			<img src="images/midtownwest2.jpg" class="image-result" alt="first"/>
+			<h1>Guantanamera</h1>
+			<p>Cuban, Lively $$ (4.4) 939 8th Ave</p>
+		</div>	
+		<div class="midtown-east">
+			<img src="images/midtowneast2.jpg" class="image-result" alt="first"/>
+			<h1>Pierre Loti Midtown</h1>
+			<p>Mediterranean, Wine, Tapas $$ (4.4) 300 E 52nd St</p>
+		</div>
+		<div class="chelsea">
+			<img src="images/chelsea2.jpg" class="image-result" alt="first"/>
+			<h1>Momoya</h1>
+			<p>Japanese, Sushi $$ (4.5) 185 7th Ave</p>
+		</div>
+		<div class="east-village">
+			<img src="images/eastvillage2.jpg" class="image-result" alt="first"/>
+			<h1>Veselka</h1>
+			<p>Ukrainian, Diner $$ (4.5) 144 2nd Ave</p>
+		</div>
+		<div class="les">
+			<img src="images/les2.jpg" class="image-result" alt="first"/>
+			<h1>Russ & Daughters Cafe</h1>
+			<p>American, Kosher $$ (4.6) 127 Orchard St</p>
+		</div>
+		<div class="fidi">
+			<img src="images/fidi2.jpg" class="image-result" alt="first"/>
+			<h1>The Dead Rabbit Grocery and Grog</h1>
+			<p>American, Cocktail $$ (4.6) 30 Water St</p>
+		</div>
+	</div>
+
+	<div class="option3">
+		<div class="harlem">
+			<img src="images/harlem3.jpg" class="image-result" alt="third"/>
+			<h1>B2 Harlem</h1>
+			<p>Seafood, Cocktails $$$ (4.3) 271 W 119th St</p>
+		</div>
+		<div class="uws">
+			<img src="images/uws3.jpg" class="image-result" alt="third"/>
+			<h1>The Ribbon</h1>
+			<p>American, Seafood, Cocktails $$$ (4.3) 20 W 72nd St</p>
+		</div>	
+		<div class="ues">
+			<img src="images/ues3.jpeg" class="image-result" alt="third"/>
+			<h1>Rotisserie Georgette</h1>
+			<p>French, Upscale $$$ (4.6) 14 E 60th St</p>
+		</div>	
+		<div class="midtown-west">
+			<img src="images/midtownwest3.jpg" class="image-result" alt="third"/>
+			<h1>Masseria dei Vini</h1>
+			<p>Italian, Seafood $$$ (4.6) 887 9th Ave</p>
+		</div>	
+		<div class="midtown-east">
+			<img src="images/midtowneast3.jpg" class="image-result" alt="third"/>
+			<h1>Avra Estiatorio</h1>
+			<p>Greek, Tapas $$$ (4.4) 141 E 48th St</p>
+		</div>
+		<div class="chelsea">
+			<img src="images/chelsea3.jpeg" class="image-result" alt="third"/>
+			<h1>aRoqa</h1>
+			<p>Indian, Fusion $$$ (4.3) 206 9th Ave</p>
+		</div>
+		<div class="east-village">
+			<img src="images/eastvillage3.png" class="image-result" alt="third"/>
+			<h1>Pardon my French</h1>
+			<p>French, Wine $$$ (4.3) 103 Avenue B</p>
+		</div>
+		<div class="les">
+			<img src="images/les3.jpeg" class="image-result" alt="third"/>
+			<h1>Tijuana Picnic</h1>
+			<p>Mexican Fusion, $$$ (3.9) 151 Essex St</p>
+		</div>
+		<div class="fidi">
+			<img src="images/fidi3.jpg" class="image-result" alt="third"/>
+			<h1>Schilling</h1>
+			<p>Austrian-Mediterranean $$$ (4.3) 109 Washington St</p>
+		</div>
+
+	</div>
+</section>
+
+
+	 <!-- result section end -->
+
+	<div id="wrapper">
+		<section class="text">
+				<h2>Can't figure out where to eat? We'll pick for you</h2>
+		</section>
+		<div class="container">
+		<section class="direction">
+			<div class="box1">
+				<p>First, let us know where you at</p>
+					<div class="location-type">
+						<select onchange ="showResults()" class="locationList">
+							<option value="default">Select a location</option>
+							<option value="Harlem">Harlem</option>
+							<option value="UWS">Upper West Side</option>
+							<option value="UES">Upper East Side</option>
+							<option value="Midtown West">Midtown West</option>
+							<option value="Midtown East">Midtown East</option>
+							<option value="Chelsea">Chelsea</option>
+							<option value="East Village">East Village</option>
+							<option value="LES">Lower East Side</option>
+							<option value="FiDi">Financial District</option>
+						</select>
+					</div>
+			</div>
+		</section>
+			<hr>
+		<section class="direction">
+			<div class="box2">
+				<p>Pick a spot at three different price points</p>
+			</div>
+		</section>
+			<hr>
+		<section class="direction">
+			<div class="box3">
+				<p>Satisfy your hunger</p>
+			</div>
+		</section>
+		</div>
+	</div>
+
+
+
+
+	
+	<footer>
+		<div class="footer">
+			© 2019 Combat Hanger. Made in NY.
+		</div>
+	</footer>
+
+
+
+
+		
+</div>	
+</body> 
+</html>
